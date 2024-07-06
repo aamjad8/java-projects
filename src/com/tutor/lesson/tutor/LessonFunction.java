@@ -1,4 +1,4 @@
-package com.tutor.lesson.ayesha;
+package com.tutor.lesson.tutor;
 
 public class LessonFunction {
     public static void main(String[] args) {
