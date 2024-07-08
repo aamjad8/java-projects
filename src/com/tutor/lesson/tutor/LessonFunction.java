@@ -10,10 +10,16 @@ public class LessonFunction {
 
         bigAddition(3452345233434345L, 35242424390899L);
 
+        System.out.println("Result of this return function is " + additionAndReturn(10000,2000000));
+
 
         char lastCharater='Z';
         boolean canVote=false;
         String canVote1="True";
+    }
+
+    static int additionAndReturn(int num1, int num2){
+        return num1+num2;
     }
 
     static void addition(int num1, int num2){
@@ -34,6 +40,8 @@ public class LessonFunction {
         System.out.println("Sum of three numbers is: "+sum);
 
     }
+
+
 
     //TODO:  create a function for substration, multiplication and division
 }
